@@ -1,11 +1,11 @@
-# 📊 A/B Testing: Comparison of Conversion Rates Between Bidding Methods
+#  A/B Testing: Comparison of Conversion Rates Between Bidding Methods
 ![ımages](https://github.com/AylinOguz/AB_Testing/blob/main/Images/AB-Testing.png?raw=true)
 
 
-## 📝 Project Overview
+##  Project Overview
 This project analyzes and compares Maximum Bidding and Average Bidding methods using A/B testing techniques. The goal is to determine if the change in bidding strategy leads to a statistically significant difference in user behavior and revenue generation.
 
-## 📚 Dataset Description
+##  Dataset Description
 
 - __click__: Number of clicks on those ads
 
@@ -15,7 +15,7 @@ This project analyzes and compares Maximum Bidding and Average Bidding methods u
 
 The dataset is stored in the file ab_testing.xlsx, with separate sheets for the control and test groups.
 
-### 🔍 Objective
+##  Objective
 To perform a complete A/B testing process to evaluate the effectiveness of a new bidding method by:
 
 __1.__ Preparing and cleaning the dataset
@@ -28,18 +28,16 @@ __4.__ Applying independent two-sample t-tests
 
 __5.__ Interpreting statistical results 
 
-### 🛠️ Tools & Libraries
+##  Tools & Libraries
 - Python
 
-- pandas, numpy
-
-- matplotlib, seaborn
+- pandas
 
 - statsmodels
 
 - scipy
 
-### 📈 Key Steps in the Notebook
+##  Key Steps in the Notebook
 - Data loading and merging of control/test groups
 
 - Summary statistics and group-wise comparisons
@@ -48,5 +46,5 @@ __5.__ Interpreting statistical results
 
 - Interpretation of p-values to reach conclusions
 
-### ✅ Conclusion
+##  Conclusion
 This notebook concludes with a statistical evaluation of the effectiveness of the Average Bidding strategy compared to Maximum Bidding, aiding data-driven decision making for marketing strategies.
