@@ -6,6 +6,7 @@
 This project analyzes and compares Maximum Bidding and Average Bidding methods using A/B testing techniques. The goal is to determine if the change in bidding strategy leads to a statistically significant difference in user behavior and revenue generation.
 
 ##  Dataset Description
+- __impression__: Number of ad impressions
 
 - __click__: Number of clicks on those ads
 
